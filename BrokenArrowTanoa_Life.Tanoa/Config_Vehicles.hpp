@@ -438,7 +438,7 @@ class CfgVehicles {
 	                "\A3\soft_F\Offroad_01\Data\offroad_01_ext_BASE05_CO.paa",
 	                "\A3\soft_F\Offroad_01\Data\offroad_01_ext_BASE05_CO.paa"
             } },
-            { "Fed", "fed", {
+            { "Fed", "cop", {
 	                "#(ai,64,64,1)Fresnel(0.3,3)"
             } },
 			{ "Police", "cop", {
@@ -542,7 +542,7 @@ class CfgVehicles {
                 "\A3\Soft_F_Beta\Truck_02\data\truck_02_kab_co.paa",
                 "\a3\soft_f_beta\Truck_02\data\truck_02_kuz_co.paa"
             } },
-            { "Black", "fed", {
+            { "Black", "cop", {
                 "#(argb,8,8,3)color(0.05,0.05,0.05,1)"
             } }
         };
@@ -680,7 +680,7 @@ class CfgVehicles {
         	{ "Regular", "cop", {
                 "\A3\Soft_F\MRAP_01\Data\mrap_01_base_co.paa"
             } },
-            { "Black", "fed", {
+            { "Black", "cop", {
                 "#(argb,8,8,3)color(0.05,0.05,0.05,1)"
             } }
         };
@@ -692,7 +692,7 @@ class CfgVehicles {
         insurance = 2500;
         chopShop = 55000;
         textures[] = {
-            { "Black", "fed", {
+            { "Black", "cop", {
                 "#(argb,8,8,3)color(0.05,0.05,0.05,1)"
             } }
         };
@@ -704,7 +704,7 @@ class CfgVehicles {
         insurance = 2500;
         chopShop = 75000;
         textures[] = {
-            { "Black", "fed", {
+            { "Black", "cop", {
                 "#(argb,8,8,3)color(0.05,0.05,0.05,1)"
             } }
         };
@@ -772,7 +772,7 @@ class CfgVehicles {
         insurance = 2500;
         chopShop = 5000;
         textures[] = {
-        	{ "Black", "fed", {
+        	{ "Black", "cop", {
                 "\a3\air_f\Heli_Light_02\Data\heli_light_02_ext_co.paa"
             } },
 			{ "White / Blue", "civ", {
