@@ -402,7 +402,7 @@ class CfgVehicles {
             } },
             { "Green", "Reb", {
                 "#(argb,81,91,59)color(0.05,0.05,0.05,1)"
-            } },
+            } }
 	    };
     };
 
