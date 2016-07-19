@@ -26,6 +26,10 @@ switch (typeOf _vehicle) do
 	{
 		_lightleft lightAttachObject [_vehicle, [0.6, 2, -0.95]];
 	};
+	case "C_Offroad_01_F":
+	{
+		_lightright lightAttachObject [_vehicle, [0.37, 0.0, 0.56]];
+	};
 	case "B_MRAP_01_F":
 	{
 		_lightleft lightAttachObject [_vehicle, [-0.37, 0.0, 0.56]];
@@ -63,6 +67,10 @@ _lightright setLightAmbient [0.1,0.1,1];
 switch (typeOf _vehicle) do
 {
 	case "B_GEN_Offroad_01_gen_F":
+	{
+		_lightright lightAttachObject [_vehicle, [0.37, 0.0, 0.56]];
+	};
+		case "C_Offroad_01_F":
 	{
 		_lightright lightAttachObject [_vehicle, [0.37, 0.0, 0.56]];
 	};
