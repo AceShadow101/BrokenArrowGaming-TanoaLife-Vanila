@@ -19,11 +19,12 @@ _lightleft setLightColor _lightRed;
 _lightleft setLightBrightness 0.2;  
 _lightleft setLightAmbient [0.1,0.1,1];
 
+
 switch (typeOf _vehicle) do
 {
 	case "B_GEN_Offroad_01_gen_F":
 	{
-		_lightleft lightAttachObject [_vehicle, [-0.37, 0.0, 0.56]];
+		_lightleft lightAttachObject [_vehicle,  [[0.6, 2, -0.95]];
 	};
 	case "B_MRAP_01_F":
 	{
@@ -31,11 +32,11 @@ switch (typeOf _vehicle) do
 	};
 	case "B_T_LSV_01_unarmed_F":
 	{
-		_lightleft lightAttachObject [_vehicle, [-0.37, -1.9, 0.7]];
+		_lightleft lightAttachObject [_vehicle, [-0.37,-1.2,0.42]];
 	};
 	case "B_T_LSV_01_armed_F":
 	{
-		_lightleft lightAttachObject [_vehicle, [-0.37, -1.9, 0.7]];
+		_lightleft lightAttachObject [_vehicle, [-0.37,-1.2,0.42]];
 	};
 	case "C_SUV_01_F":
 	{
@@ -67,11 +68,11 @@ switch (typeOf _vehicle) do
 	};
 	case "B_MRAP_01_F":
 	{
-		_lightleft lightAttachObject [_vehicle, [-0.37, -1.9, 0.7]];
+		_lightright lightAttachObject [_vehicle, [-0.37, -1.9, 0.7]];
 	};
 	case "B_T_LSV_01_unarmed_F":
 	{
-		_lightleft lightAttachObject [_vehicle, [-0.37, -1.9, 0.7]];
+		_lightright lightAttachObject [_vehicle, [-0.37,-1.2,0.42]];
 	};
 	case "B_T_LSV_01_armed_F":
 	{
