@@ -596,23 +596,6 @@ class CfgVehicles {
             } }
         };
     };
-	
-	class C_Hatchback_01_sport_F {
-        vItemSpace = 45;
-        licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 70000;
-        textures[] = {
-            { "Texture 1", "civ", {
-                "Skins\Civ\example1.paa"
-            } },
-            { "Police", "cop", {
-                "Skins\Cop\examplecop.paa"
-            } },
-            { "Medic", "med", {
-                "Skins\Med\exampleMed.paa"
-            } }
-        };
-    };
 
 	class C_SUV_01_F {
         vItemSpace = 50;
