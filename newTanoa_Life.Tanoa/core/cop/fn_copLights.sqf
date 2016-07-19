@@ -24,7 +24,7 @@ switch (typeOf _vehicle) do
 {
 	case "B_GEN_Offroad_01_gen_F":
 	{
-		_lightleft lightAttachObject [_vehicle,  [[0.6, 2, -0.95]];
+		_lightleft lightAttachObject [_vehicle, [0.6, 2, -0.95]];
 	};
 	case "B_MRAP_01_F":
 	{
