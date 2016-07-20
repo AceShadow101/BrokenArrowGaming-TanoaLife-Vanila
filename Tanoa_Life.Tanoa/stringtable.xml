@@ -3322,6 +3322,13 @@
 			<Italian>Porto d'Armi</Italian>
 			<Portuguese>Licença de Porte de Armas</Portuguese>
 		</Key>
+		<Key ID="STR_License_Hunting">
+			<Original>Hunting License</Original>
+			<German>Waffenschein</German>
+			<French>Permis de Port d'Arme</French>
+			<Italian>Porto d'Armi</Italian>
+			<Portuguese>Licença de Porte de Armas</Portuguese>
+		</Key>
 		<Key ID="STR_License_Swat">
 			<Original>SWAT License</Original>
 			<German>SWAT-Lizenz</German>
