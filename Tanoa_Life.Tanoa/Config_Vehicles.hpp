@@ -365,7 +365,7 @@ class CfgVehicles {
 	                "#(ai,64,64,1)Fresnel(1.3,7)"
             } },
             { "Police", "cop", {
-	                "\core\textures\tanoa_police_offroad.paa"
+	                "\core\textures\police_offroad.paa"
             } }
 	    };
     };
@@ -400,8 +400,20 @@ class CfgVehicles {
             { "Black", "Civ", {
                 "#(argb,0,0,0)color(0.05,0.05,0.05,1)"
             } },
+			{ "4wheelpd", "cop", {
+                 "textures\cop\jeepPD.paa"
+            } },
             { "Green", "Reb", {
                 "#(argb,81,91,59)color(0.05,0.05,0.05,1)"
+            } },
+			{ "Patrol", "cop", {
+                 "textures\cop\offroad_02_ext_base01_TanoaPD.paa"
+            } },
+			{ "Jurassic", "cop", {
+                 "textures\cop\offroad_02_ext_base01_Jurassic.paa"
+            } },
+			{ "UV", "cop", {
+                 "textures\cop\offroad_02_ext_base01_uv.paa"
             } }
 	    };
     };
@@ -443,6 +455,9 @@ class CfgVehicles {
             } },
 			{ "Police", "cop", {
 	                "#(ai,64,64,1)Fresnel(1.3,7)"
+            } },
+			{ "Patrol", "cop", {
+	                "textures\cop\offroad_01_ext_base01_TanoaPD.paa"
             } },
             { "Taxi", "civ", {
 	                "#(argb,8,8,3)color(0.6,0.3,0.01,1)"
@@ -618,8 +633,11 @@ class CfgVehicles {
             } },
             { "Cop", "cop", {
                 "#(ai,64,64,1)Fresnel(1.3,7)"
+            } },
+			{ "Patrol", "cop", {
+                "textures\cop\police_suv.paa"
             } }
-	        };
+	    };
     };
 
 	class C_Van_01_transport_F {
@@ -677,6 +695,9 @@ class CfgVehicles {
         textures[] = {
             { "Black", "cop", {
                 "#(argb,8,8,3)color(0.05,0.05,0.05,1)"
+            } },
+			{ "Patrol", "cop", {
+                "textures\cop\LSV_01_ext_base01_TanoaPD.paa"
             } }
         };
     };
@@ -689,7 +710,10 @@ class CfgVehicles {
         textures[] = {
             { "Black", "cop", {
                 "#(argb,8,8,3)color(0.05,0.05,0.05,1)"
-            } }
+            } },
+			{ "Patrol", "cop", {
+                "textures\cop\LSV_01_ext_base01_TanoaPD.paa"
+			} }
         };
     };
 

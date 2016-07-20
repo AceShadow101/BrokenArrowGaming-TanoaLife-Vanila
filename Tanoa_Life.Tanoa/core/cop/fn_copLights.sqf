@@ -14,91 +14,102 @@ _lightRed = [20, 0.1, 0.1];
 _lightBlue = [0.1, 0.1, 20];
 
 _lightleft = "#lightpoint" createVehicle getpos _vehicle;   
-sleep 0.1;
+sleep 0.2;
 _lightleft setLightColor _lightRed; 
 _lightleft setLightBrightness 0.2;  
 _lightleft setLightAmbient [0.1,0.1,1];
 
-
 switch (typeOf _vehicle) do
 {
-	case "B_GEN_Offroad_01_gen_F":
-	{
-		_lightleft lightAttachObject [_vehicle, [0.6, 2, -0.95]];
-	};
 	case "C_Offroad_01_F":
-	{
-		_lightright lightAttachObject [_vehicle, [0.37, 0.0, 0.56]];
-	};
-	case "B_MRAP_01_F":
 	{
 		_lightleft lightAttachObject [_vehicle, [-0.37, 0.0, 0.56]];
 	};
-	case "B_T_LSV_01_unarmed_F":
+	
+	case "B_MRAP_01_F":
 	{
-		_lightleft lightAttachObject [_vehicle, [-0.37,-1.2,0.42]];
+		_lightleft lightAttachObject [_vehicle, [-0.37, 1.0, 0.0]];
 	};
+	
+	case "C_Offroad_02_unarmed_F":
+	{
+		_lightleft lightAttachObject [_vehicle, [-0.79, 1.9, -0.29]];
+	};
+	
+	case "B_GEN_Offroad_01_gen_F":
+	{
+		_lightleft lightAttachObject [_vehicle, [-0.37, 0.0, 0.56]];
+	};
+	
 	case "B_T_LSV_01_armed_F":
 	{
-		_lightleft lightAttachObject [_vehicle, [-0.37,-1.2,0.42]];
+		_lightleft lightAttachObject [_vehicle, [-0.37, 0.40, -0.20]];
 	};
+	
+	case "B_T_LSV_01_unarmed_F":
+	{
+		_lightleft lightAttachObject [_vehicle, [-0.37, 0.50, -0.10]];
+	};
+	
 	case "C_SUV_01_F":
 	{
-		_lightleft lightAttachObject [_vehicle, [-0.37,-1.2,0.42]];
-	};
-	case "C_Hatchback_01_sport_F":
-	{
-		_lightleft lightAttachObject [_vehicle, [-0.37,-1.2,0.42]];
+		_lightleft lightAttachObject [_vehicle, [-0.37, 2.2, -0.36]];
 	};
 };
 
 _lightleft setLightAttenuation [0.181, 0, 1000, 130]; 
-_lightleft setLightIntensity 20;
-_lightleft setLightFlareSize 0.58;
+_lightleft setLightIntensity 10;
+_lightleft setLightFlareSize 0.68;
 _lightleft setLightFlareMaxDistance 150;
 _lightleft setLightUseFlare true;
 
 _lightright = "#lightpoint" createVehicle getpos _vehicle;   
 sleep 0.2;
 _lightright setLightColor _lightBlue; 
-_lightright setLightBrightness 0.5;  
-_lightright setLightAmbient [0.1,0.1,1]; 
+_lightright setLightBrightness 0.2;  
+_lightright setLightAmbient [0.1,0.1,1];
 
 switch (typeOf _vehicle) do
 {
+	case "C_Offroad_01_F":
+	{
+		_lightright lightAttachObject [_vehicle, [0.37, 0.0, 0.56]];
+	};
+	
+	case "B_MRAP_01_F":
+	{
+		_lightright lightAttachObject [_vehicle, [0.37, 1.0, 0.56]];
+	};
+	
+	case "C_Offroad_02_unarmed_F":
+	{
+		_lightright lightAttachObject [_vehicle, [0.79, 1.9, -0.29]];
+	};
+	
 	case "B_GEN_Offroad_01_gen_F":
 	{
 		_lightright lightAttachObject [_vehicle, [0.37, 0.0, 0.56]];
 	};
-		case "C_Offroad_01_F":
-	{
-		_lightright lightAttachObject [_vehicle, [0.37, 0.0, 0.56]];
-	};
-	case "B_MRAP_01_F":
-	{
-		_lightright lightAttachObject [_vehicle, [-0.37, -1.9, 0.7]];
-	};
-	case "B_T_LSV_01_unarmed_F":
-	{
-		_lightright lightAttachObject [_vehicle, [-0.37,-1.2,0.42]];
-	};
+	
 	case "B_T_LSV_01_armed_F":
 	{
-		_lightright lightAttachObject [_vehicle, [0.37, -1.9, 0.7]];
+		_lightright lightAttachObject [_vehicle, [0.37, 0.40, -0.20]];
 	};
+	
+	case "B_T_LSV_01_unarmed_F":
+	{
+		_lightright lightAttachObject [_vehicle, [0.37, 0.50, -0.10]];
+	};
+	
 	case "C_SUV_01_F":
 	{
-		_lightright lightAttachObject [_vehicle, [0.37,-1.2,0.42]];
-	};
-	case "C_Hatchback_01_sport_F":
-	{
-		_lightright lightAttachObject [_vehicle, [0.37,-1.2,0.42]];
+		_lightright lightAttachObject [_vehicle, [0.37, 2.2, -0.36]];
 	};
 };
   
 _lightright setLightAttenuation [0.181, 0, 1000, 130]; 
 _lightright setLightIntensity 10;
-_lightright setLightFlareSize 0.38;
+_lightright setLightFlareSize 0.68;
 _lightright setLightFlareMaxDistance 150;
 _lightright setLightUseFlare true;
 
@@ -115,14 +126,24 @@ while{ (alive _vehicle)} do
 		_leftRed = false;  
 		_lightright setLightBrightness 0.0;  
 		sleep 0.05;
-		_lightleft setLightBrightness 6;  
+		_lightleft setLightBrightness 6;
+		sleep 0.01;
+		_leftRed = false;  
+		_lightright setLightBrightness 0.0;  
+		sleep 0.02;
+		_lightleft setLightBrightness 6;		
 	}  
 		else  
 	{  
 		_leftRed = true;  
 		_lightleft setLightBrightness 0.0;  
 		sleep 0.05;
-		_lightright setLightBrightness 6;  
+		_lightright setLightBrightness 6;
+		sleep 0.01;
+		_leftRed = true;  
+		_lightleft setLightBrightness 0.0;  
+		sleep 0.02;
+		_lightright setLightBrightness 6; 		
 	};  
 	sleep (_this select 1);  
 };  
