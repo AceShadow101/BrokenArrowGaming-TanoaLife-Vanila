@@ -3325,6 +3325,9 @@
 		<Key ID="STR_License_Hunting">
 			<Original>Hunting License</Original>
 		</Key>
+		<Key ID="STR_License_Federal">
+			<Original>Federal License</Original>
+		</Key>
 		<Key ID="STR_License_Swat">
 			<Original>SWAT License</Original>
 			<German>SWAT-Lizenz</German>

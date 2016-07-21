@@ -8,15 +8,54 @@ class WeaponShops {
         msg = "";
         items[] = {
             { "hgun_Rook40_F", "", 6500 },
-            { "hgun_Pistol_heavy_02_F", "", 9850 },
-            { "hgun_ACPC2_F", "", 11500 },
-            { "hgun_PDW2000_F", "", 20000 },
-            { "optic_ACO_grn_smg", "", 2500 },
-            { "V_Rangemaster_belt", "", 4900 },
             { "16Rnd_9x21_Mag", "", 25 },
-            { "9Rnd_45ACP_Mag", "", 45 },
+            { "hgun_Pistol_heavy_02_F", "", 9850 },
             { "6Rnd_45ACP_Cylinder", "", 50 },
-            { "30Rnd_9x21_Mag", "", 75 }
+            { "hgun_ACPC2_F", "", 11500 },
+            { "9Rnd_45ACP_Mag", "", 45 },
+            { "hgun_PDW2000_F", "", 20000 },
+            { "30Rnd_9x21_Mag", "", 75 },
+            { "SMG_02_F", "", 25000},
+            { "30Rnd_9x21_Mag", "", 75 },
+            { "optic_ACO_grn_smg", "", 2500 },
+            { "V_Rangemaster_belt", "", 4900 }
+        };
+    };
+    class hunting {
+        name = "Hunting Shop";
+        side = "civ";
+        license = "hunting";
+        level = -1;
+        msg = "";
+        items[] = {
+            { "srifle_DMR_01_F", "", 50000 },
+            { "10Rnd_762x51_Mag", "", 150 },
+            { "srifle_DMR_06_olive_F", "", 60000 },
+            { "20Rnd_762x51_Mag", "", 150 },
+            { "optic_DMS", "", 1000 }
+        };
+    };
+    class federal {
+        name = "Federal Firearms Shop";
+        side = "civ";
+        license = "federal";
+        level = -1;
+        msg = "";
+        items[] = {
+            { "SMG_01_F", "", 50000},
+            { "30Rnd_45ACP_Mag_SMG_01", "", 1000 },
+            { "SMG_02_F", "", 50000},
+            { "30Rnd_9x21_Mag", "", 1000 },
+            { "arifle_Mk20_plain_F", "", 150000 },
+            { "30Rnd_556x45_Stanag", "", 2000 },
+            { "arifle_TRG21_F", "", 150000 },
+            { "30Rnd_556x45_Stanag", "", 2000 },
+            { "arifle_MX_F", "", 200000 },
+            { "30Rnd_65x39_caseless_mag", "", 2000 },
+            { "arifle_SPAR_01_snd_F", "", 250000 },
+            { "30Rnd_556x45_Stanag", "", 2000 },
+            { "optic_Aco", "", 40000 },
+            { "optic_Aco_grn", "", 40000 }
         };
     };
     class rebel {
@@ -27,18 +66,17 @@ class WeaponShops {
         msg = "";
         items[] = {
             { "arifle_TRG20_F", "", 25000 },
+            { "30Rnd_556x45_Stanag", "", 300 },
             { "arifle_Katiba_F", "", 30000 },
+            { "30Rnd_65x39_caseless_green", "", 275 },
             { "srifle_DMR_01_F", "", 50000 },
+            { "10Rnd_762x51_Mag", "", 500 },
             { "arifle_SDAR_F", "", 20000 },
-            { "optic_ACO_grn", "", 3500 },
-            { "optic_Holosight", "", 3600 },
+            { "20Rnd_556x45_UW_mag", "", 125 },
             { "acc_flashlight", "", 1000 },
             { "optic_Hamr", "", 7500 },
-            { "30Rnd_9x21_Mag", "", 200 },
-            { "20Rnd_556x45_UW_mag", "", 125 },
-            { "30Rnd_556x45_Stanag", "", 300 },
-            { "10Rnd_762x51_Mag", "", 500 },
-            { "30Rnd_65x39_caseless_green", "", 275 }
+            { "optic_Holosight", "", 3600 },
+            { "optic_ACO_grn", "", 3500 }
         };
     };
     class gang {
@@ -81,7 +119,7 @@ class WeaponShops {
     };
     //Cop Shops
     class cop_basic {
-        name = "Altis Cop Shop";
+        name = "Tanoa Cop Shop";
         side = "cop";
         license = "";
         level = -1;
@@ -103,7 +141,7 @@ class WeaponShops {
         };
     };
     class cop_patrol {
-        name = "Altis Patrol Officer Shop";
+        name = "Tanoa Patrol Officer Shop";
         side = "cop";
         license = "";
         level = 2;
@@ -122,7 +160,7 @@ class WeaponShops {
         };
     };
     class cop_sergeant {
-        name = "Altis Sergeant Officer Shop";
+        name = "Tanoa Sergeant Officer Shop";
         side = "cop";
         license = "";
         level = 3;
@@ -137,6 +175,60 @@ class WeaponShops {
 			{ "30Rnd_65x39_caseless_mag", "", 100 },
 			{ "30Rnd_9x21_Mag", "", 60 },
 			{ "9Rnd_45ACP_Mag", "", 200 }
+        };
+    };
+    class cop_lieutenant {
+        name = "Tanoa Lieutenant Officer Shop";
+        side = "cop";
+        license = "";
+        level = 4;
+        msg = "You must be a Lieutenant Rank!";
+        items[] = {
+            { "SMG_02_ACO_F", "", 15000 },
+            { "hgun_ACPC2_F", "", 17500 },
+            { "HandGrenade_Stone", "Flashbang", 1700 },
+            { "arifle_MXC_F", "", 30000 },
+            { "optic_Arco", "", 2500 },
+            { "muzzle_snds_H", "", 2750 },
+            { "30Rnd_65x39_caseless_mag", "", 100 },
+            { "30Rnd_9x21_Mag", "", 60 },
+            { "9Rnd_45ACP_Mag", "", 200 }
+        };
+    };
+    class cop_swat {
+        name = "Tanoa Captain Officer Shop";
+        side = "cop";
+        license = "";
+        level = 5;
+        msg = "You must be a part of the SWAT Team!";
+        items[] = {
+            { "SMG_02_ACO_F", "", 15000 },
+            { "hgun_ACPC2_F", "", 17500 },
+            { "HandGrenade_Stone", "Flashbang", 1700 },
+            { "arifle_MXC_F", "", 30000 },
+            { "optic_Arco", "", 2500 },
+            { "muzzle_snds_H", "", 2750 },
+            { "30Rnd_65x39_caseless_mag", "", 100 },
+            { "30Rnd_9x21_Mag", "", 60 },
+            { "9Rnd_45ACP_Mag", "", 200 }
+        };
+    };
+    class cop_captain {
+        name = "Tanoa Captain Officer Shop";
+        side = "cop";
+        license = "";
+        level = 6;
+        msg = "You must be a Captain Rank!";
+        items[] = {
+            { "SMG_02_ACO_F", "", 15000 },
+            { "hgun_ACPC2_F", "", 17500 },
+            { "HandGrenade_Stone", "Flashbang", 1700 },
+            { "arifle_MXC_F", "", 30000 },
+            { "optic_Arco", "", 2500 },
+            { "muzzle_snds_H", "", 2750 },
+            { "30Rnd_65x39_caseless_mag", "", 100 },
+            { "30Rnd_9x21_Mag", "", 60 },
+            { "9Rnd_45ACP_Mag", "", 200 }
         };
     };
     //Medic Shops
