@@ -6558,6 +6558,12 @@
             <Portuguese>Licença de Porte de Armas</Portuguese>
             <Polish>Pozwolenie na broń</Polish>
         </Key>
+        <Key ID="STR_License_Hunting">
+            <Original>Hunting License</Original>
+        </Key>
+        <Key ID="STR_License_Federal">
+            <Original>Federal License</Original>
+        </Key>
         <Key ID="STR_License_Swat">
             <Original>SWAT License</Original>
             <Czech>SWAT licence</Czech>
