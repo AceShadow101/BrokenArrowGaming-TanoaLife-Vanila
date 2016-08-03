@@ -208,35 +208,119 @@ class WeaponShops {
         name = "TSP Trooper Shop";
         side = "cop";
         license = "";
-        level[] = { "life_coplevel", "SCALAR", 2, "You must be a Patrol Officer Rank!" };
+        level[] = { "life_coplevel", "SCALAR", 2, "You must be a Tanoa State Trooper!" };
         items[] = {
             { "hgun_P07_snds_F", "Stun Pistol", 2000, -1 },
-            { "arifle_MX_F", "", 35000, 7500 },
-            { "SMG_02_ACO_F", "", 30000, -1 },
-            { "HandGrenade_Stone", "Flashbang", 1700, -1 },
-            { "acc_flashlight", "", 750, 100 },
-            { "optic_Holosight", "", 1200, 275 },
-            { "optic_Arco", "", 2500, -1 },
-            { "muzzle_snds_H", "", 2750, -1 }
+            { "arifle_MX_Black_F", "", 35000, 7500 },
+            { "arifle_SPAR_01_blk_F", "", 35000, 7500 },
+            { "SMG_05_F", "", 30000, -1 }
         };
         mags[] = {
             { "16Rnd_9x21_Mag", "", 25 },
             { "30Rnd_65x39_caseless_mag", "", 130 },
-            { "30Rnd_9x21_Mag", "", 250 }
+            { "30Rnd_556x45_Stanag", "", 120 },
+            { "30Rnd_9x21_Mag_SMG_02", "", 120 }
+        };
+        accs[] = {
+            { "acc_flashlight", "", 750 },
+            { "optic_Holosight", "", 1200 },
+            { "optic_Arco", "", 2500 }
+        };
+    };
+
+    class cop_sergeant {
+        name = "TSP Trooper Sergeant Shop";
+        side = "cop";
+        license = "";
+        level[] = { "life_coplevel", "SCALAR", 3, "You must be Trooper Sergeant!" };
+        items[] = {
+            { "hgun_P07_snds_F", "Stun Pistol", 2000, -1 },
+            { "arifle_MX_Black_F", "", 35000, 7500 },
+            { "arifle_SPAR_01_blk_F", "", 35000, 7500 },
+            { "SMG_05_F", "", 30000, -1 },
+            { "HandGrenade_Stone", "Flashbang", 1700, -1 }
+        };
+        mags[] = {
+            { "16Rnd_9x21_Mag", "", 25 },
+            { "30Rnd_65x39_caseless_mag", "", 130 },
+            { "30Rnd_556x45_Stanag", "", 120 },
+            { "30Rnd_9x21_Mag_SMG_02", "", 120 }
         };
         accs[] = {
             { "acc_flashlight", "", 750 },
             { "optic_Holosight", "", 1200 },
             { "optic_Arco", "", 2500 },
-            { "muzzle_snds_H", "", 2750 }
+            { "optic_NVS", "", 3000 }
         };
     };
 
-    class cop_sergeant {
-        name = "Altis Sergeant Officer Shop";
+    class cop_lieutenant {
+        name = "TSP Trooper Lieutenant";
         side = "cop";
         license = "";
-        level[] = { "life_coplevel", "SCALAR", 3, "You must be a Sergeant Rank!" };
+        level[] = { "life_coplevel", "SCALAR", 4, "You must be a Trooper Lieutenant!" };
+        items[] = {
+            { "hgun_P07_snds_F", "Stun Pistol", 2000, -1 },
+            { "arifle_MX_Black_F", "", 35000, 7500 },
+            { "arifle_SPAR_01_blk_F", "", 35000, 7500 },
+            { "arifle_SPAR_03_blk_F", "", 45000, 7500 },
+            { "SMG_05_F", "", 30000, -1 },
+            { "HandGrenade_Stone", "Flashbang", 1700, -1 }
+        };
+        mags[] = {
+            { "16Rnd_9x21_Mag", "", 25 },
+            { "30Rnd_65x39_caseless_mag", "", 130 },
+            { "30Rnd_556x45_Stanag", "", 120 },
+            { "20Rnd_762x51_Mag", "", 120 },
+            { "30Rnd_9x21_Mag_SMG_02", "", 120 }
+        };
+        accs[] = {
+            { "acc_flashlight", "", 750 },
+            { "optic_Holosight", "", 1200 },
+            { "optic_Arco", "", 2000 },
+            { "optic_Hamr", "", 2500 },
+            { "optic_NVS", "", 3000 }
+        };
+    };
+
+    class cop_swat {
+        name = "TSP SR Team Shop";
+        side = "cop";
+        license = "";
+        level[] = { "life_coplevel", "SCALAR", 5, "You must be a part of the TSP SR Team!" };
+        items[] = {
+            { "hgun_P07_snds_F", "Stun Pistol", 2000, -1 },
+            { "arifle_MX_Black_F", "", 35000, 7500 },
+            { "arifle_SPAR_01_blk_F", "", 35000, 7500 },
+            { "arifle_SPAR_03_blk_F", "", 45000, 7500 },
+            { "srifle_DMR_02_F", "", 45000, 7500 },
+            { "srifle_LRR_F", "", 45000, 7500 },
+            { "SMG_05_F", "", 30000, -1 },
+            { "HandGrenade_Stone", "Flashbang", 1700, -1 }
+        };
+        mags[] = {
+            { "16Rnd_9x21_Mag", "", 25 },
+            { "30Rnd_65x39_caseless_mag", "", 130 },
+            { "30Rnd_556x45_Stanag", "", 120 },
+            { "20Rnd_762x51_Mag", "", 120 },
+            { "10Rnd_338_Mag", "", 120 },
+            { "5Rnd_338_Mag", "", 120 },
+            { "30Rnd_9x21_Mag_SMG_02", "", 120 }
+        };
+        accs[] = {
+            { "acc_flashlight", "", 750 },
+            { "optic_Holosight", "", 1200 },
+            { "optic_Arco", "", 2000 },
+            { "optic_Hamr", "", 2500 },
+            { "optic_NVS", "", 3000 }
+        };
+    };
+
+    class cop_command {
+        name = "TSP Trooper Command Shop";
+        side = "cop";
+        license = "";
+        level[] = { "life_coplevel", "SCALAR", 6, "You must be TSP Command!" };
         items[] = {
             { "hgun_ACPC2_F", "", 17500, -1 },
             { "SMG_02_ACO_F", "", 15000, -1 },
