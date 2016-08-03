@@ -53,7 +53,7 @@ class WeaponShops {
         };
         accs[] = {
             { "optic_DMS", "", 1000 }
-        }
+        };
     };
 
     class federal {
