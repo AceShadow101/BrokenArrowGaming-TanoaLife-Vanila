@@ -590,16 +590,6 @@ will modify the virtual space and the price of the vehicle, but other informatio
             } }
 		};
 	};
-	class B_T_LSV_01_unarmed_F {
-        vItemSpace = 65;
-        licenses[] = { {""}, {""}, {""}, {""} };
-        price = 12500;
-		 textures[] = {
-			{ "Patrol", "cop", {
-                 "textures\cop\LSV_01_ext_base01_TanoaPD.paa"
-            } }
-		};
-	};
     class C_Van_01_transport_F {
         vItemSpace = 100;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
@@ -659,7 +649,6 @@ will modify the virtual space and the price of the vehicle, but other informatio
         price = 30000;
         textures[] = {
             { "Black", "cop", {
-                "#(argb,8,8,3)color(0.05,0.05,0.05,1)",
                 "#(argb,8,8,3)color(0.05,0.05,0.05,1)"
             } }
         };

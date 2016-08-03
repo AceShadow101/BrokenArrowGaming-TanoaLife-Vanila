@@ -81,7 +81,7 @@ class WeaponShops {
             { "optic_Aco", "", 40000 },
             { "optic_Aco_grn", "", 40000 },
             { "optic_Holosight", "", 45000 }
-        }
+        };
     };
 
     class rebel {
