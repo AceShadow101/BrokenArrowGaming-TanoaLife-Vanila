@@ -104,7 +104,7 @@ class WeaponShops {
             { "30Rnd_556x45_Stanag", "", 275 },
             { "30Rnd_65x39_caseless_green", "", 275 },
             { "10Rnd_762x51_Mag", "", 300 },
-            { "20Rnd_762x51_Mag", "", 350 },
+            { "20Rnd_762x51_Mag", "", 350 }
         accs[] = {
             { "optic_ACO_grn", "", 3500 },
             { "optic_Holosight", "", 3600 },
@@ -130,7 +130,7 @@ class WeaponShops {
             { "6Rnd_45ACP_Cylinder", "", 50 },
             { "9Rnd_45ACP_Mag", "", 45 },
             { "30Rnd_9x21_Mag", "", 75 },
-            { "30Rnd_762x39_Mag_F", "", 500 },
+            { "30Rnd_762x39_Mag_F", "", 500 }
         };
         accs[] = {
             { "optic_ACO_grn_smg", "", 950 }
