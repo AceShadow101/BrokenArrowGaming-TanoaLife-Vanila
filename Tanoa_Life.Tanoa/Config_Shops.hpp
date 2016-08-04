@@ -104,7 +104,7 @@ class WeaponShops {
             { "9Rnd_45ACP_Mag", "", 45 },
             { "hgun_PDW2000_F", "", 9500 },
             { "30Rnd_9x21_Mag", "", 75 },
-            { "arifle_AKM_F", "", 55000 },
+            { "arifle_AKM_F", "", 200000 },
             { "30Rnd_762x39_Mag_F", "", 100 },
             { "optic_ACO_grn_smg", "", 950 },
             { "V_Rangemaster_belt", "", 1900 }
