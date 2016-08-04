@@ -18,7 +18,7 @@ switch (_side) do
 	{
 		_return = [
 			["cop_spawn_1","GeorgeTown HQ","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
-			["cop_spawn_2","LinjnHaven Police HQ","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
+			["cop_spawn_2","LijnHaven Police HQ","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
 			["cop_spawn_3","Air HQ/Training Base","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
 		];
 	};
@@ -27,7 +27,7 @@ switch (_side) do
 	{
 		_return = [
 		["spawn_3","Georgetown","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
-		["spawn_1","Linjnhaven","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
+		["spawn_1","Lijnhaven","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
 		["spawn_2","Tuvanaka","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
 		];
 		
