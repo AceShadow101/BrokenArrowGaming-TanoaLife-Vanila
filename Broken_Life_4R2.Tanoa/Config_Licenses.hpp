@@ -48,6 +48,22 @@ class Licenses {
         side = "civ";
     };
 
+    class hunting {
+        variable = "hunting";
+        displayName = "STR_License_Hunting";
+        price = 100000;
+        illegal = false;
+        side = "civ";
+    };
+
+    class federal {
+        variable = "federal";
+        displayName = "STR_License_Federal";
+        price = 150000;
+        illegal = false;
+        side = "civ";
+    };
+
     class dive {
         variable = "dive";
         displayName = "STR_License_Diving";
