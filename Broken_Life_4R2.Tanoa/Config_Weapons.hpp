@@ -39,17 +39,25 @@ class WeaponShops {
     };
 
     class rebel {
-        name = "Mohammed's Jihadi Shop";
+        name = "Syndikat Weapons Shop";
         side = "civ";
         license = "rebel";
         level[] = { "", "", -1, "" };
         items[] = {
+            { "hgun_Rook40_F", "", 1500, 500 },
+            { "hgun_Pistol_heavy_02_F", "", 2500, -1 },
+            { "hgun_ACPC2_F", "", 4500, -1 },
+            { "hgun_PDW2000_F", "", 9500, -1 }
             { "arifle_TRG20_F", "", 25000, 2500 },
             { "arifle_Katiba_F", "", 30000, 5000 },
             { "srifle_DMR_01_F", "", 50000, -1 },
             { "arifle_SDAR_F", "", 20000, 7500 }
         };
         mags[] = {
+            { "16Rnd_9x21_Mag", "", 25 },
+            { "6Rnd_45ACP_Cylinder", "", 50 },
+            { "9Rnd_45ACP_Mag", "", 45 },
+            { "30Rnd_9x21_Mag", "", 75 },
             { "30Rnd_556x45_Stanag", "", 300 },
             { "30Rnd_65x39_caseless_green", "", 275 },
             { "10Rnd_762x54_Mag", "", 500 },
@@ -63,7 +71,7 @@ class WeaponShops {
         };
     };
     class hunting {
-        name = "Hunters Weapon Store";
+        name = "Hunter's Weapon Store";
         side = "civ";
         license = "";
         level[] = { "", "", -1, "" };
@@ -80,7 +88,7 @@ class WeaponShops {
         };
     };
 	 class federal {
-        name = "Federal";
+        name = "Federal Weapons Shop";
         side = "civ";
         license = "";
         level[] = { "", "", -1, "" };
@@ -97,6 +105,7 @@ class WeaponShops {
             { "30Rnd_9x21_Mag", "", 150 },
             { "30Rnd_9x21_Mag_SMG_02", "", 200 },
 			{ "30Rnd_45ACP_Mag_SMG_01", "", 200 },
+            { "30Rnd_556x45_Stanag", "", 200 },
 			{ "30Rnd_545x39_Mag_F", "", 200 }
 	};
         accs[] = {
@@ -151,7 +160,7 @@ class WeaponShops {
     };
 
     class f_station_store {
-        name = "Altis Fuel Station Store";
+        name = "Tanoa Fuel Station Store";
         side = "";
         license = "";
         level[] = { "", "", -1, "" };
