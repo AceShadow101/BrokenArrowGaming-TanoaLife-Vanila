@@ -121,24 +121,8 @@ class CfgSpawnPoints {
 
     class Medic {
         class Kavala {
-            displayName = "Kavala Hospital";
-            spawnMarker = "medic_spawn_1";
-            icon = "\a3\ui_f\data\map\MapControl\hospital_ca.paa";
-            licenses[] = { { "", true } };
-            level[] = { "", "", -1 };
-        };
-
-        class Athira {
-            displayName = "Athira Regional";
-            spawnMarker = "medic_spawn_2";
-            icon = "\a3\ui_f\data\map\MapControl\hospital_ca.paa";
-            licenses[] = { { "", true } };
-            level[] = { "", "", -1 };
-        };
-
-        class Pyrgos {
-            displayName = "Pyrgos Hospital";
-            spawnMarker = "medic_spawn_3";
+            displayName = "Georgetown Hospital";
+            spawnMarker = "med_spawn_1";
             icon = "\a3\ui_f\data\map\MapControl\hospital_ca.paa";
             licenses[] = { { "", true } };
             level[] = { "", "", -1 };
